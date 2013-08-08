@@ -2,7 +2,9 @@ PATH
   remote: .
   specs:
     subscribem (0.0.1)
+      bcrypt-ruby (= 3.0.1)
       rails (~> 4.0.0)
+      warden (= 1.2.3)
 
 GEM
   remote: https://rubygems.org/
@@ -33,6 +35,7 @@ GEM
       tzinfo (~> 0.3.37)
     arel (4.0.0)
     atomic (1.1.12)
+    bcrypt-ruby (3.0.1)
     builder (3.1.4)
     capybara (2.1.0)
       mime-types (>= 1.16)
@@ -100,6 +103,8 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.37)
+    warden (1.2.3)
+      rack (>= 1.0)
     xpath (2.0.0)
       nokogiri (~> 1.3)
 

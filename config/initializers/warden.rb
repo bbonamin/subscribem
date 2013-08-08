@@ -1,0 +1,1 @@
+Subscribem::Engine.config.middleware.use Warden::Manager

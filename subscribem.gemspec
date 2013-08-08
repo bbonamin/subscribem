@@ -7,8 +7,8 @@ require "subscribem/version"
 Gem::Specification.new do |s|
   s.name        = "subscribem"
   s.version     = Subscribem::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
+  s.authors     = ["Bruno Bonamin"]
+  s.email       = ["bruno@bonamin.org"]
   s.homepage    = "TODO"
   s.summary     = "TODO: Summary of Subscribem."
   s.description = "TODO: Description of Subscribem."
@@ -17,6 +17,8 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.0.0"
+  s.add_dependency 'bcrypt-ruby', '3.0.1'
+  s.add_dependency "warden", "1.2.3"
 
   s.add_development_dependency "sqlite3"
   s.add_development_dependency 'rspec-rails', '2.14.0'
