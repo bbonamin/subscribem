@@ -1,1 +1,3 @@
-Subscribem::Engine.config.middleware.use Warden::Manager
+Subscribem::Engine.config.middleware.use Warden::Manager do |manager|
+  manager.default_strategies :password
+end
