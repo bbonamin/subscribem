@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = Subscribem::VERSION
   s.authors     = ["Bruno Bonamin"]
   s.email       = ["bruno@bonamin.org"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Subscribem."
-  s.description = "TODO: Description of Subscribem."
+  s.homepage    = "example.com"
+  s.summary     = "Ryan Biggs' on Multitenancy with Rails."
+  s.description = "Rails Engine for multitenancy Rails applications."
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
